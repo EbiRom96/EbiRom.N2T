@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net5.0;net6.0;net7.0;net8.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>EbiRom.N2T - Number to Text Converter</Title>
+    <Version>2.0.0</Version>
+    <Authors>EbiRom</Authors>
+    <Description>A high-performance library for converting numbers to text in Persian, Arabic, English, Russian, French, and German languages. Supports all .NET versions.</Description>
+    <PackageId>EbiRom.N2T</PackageId>
+    <PackageTags>number,text,converter,persian,arabic,english,russian,french,german,multilingual</PackageTags>
+    <PackageProjectUrl>https://github.com/EbiRom96/EbiRom.N2T</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EbiRom96/EbiRom.N2T</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright © 2025 EbiRom</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyName>EbiRom.N2T</AssemblyName>
+    <RootNamespace>EbiRom.N2T</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
